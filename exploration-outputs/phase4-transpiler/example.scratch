@@ -1,0 +1,10 @@
+# ScratchScript Example: Draw a Square
+# This program draws a 100x100 pixel square using the pen
+
+sprite Cat:
+    when flag clicked:
+        pen down
+        repeat 4:
+            move 100 steps
+            turn right 90
+        pen up

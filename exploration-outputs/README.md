@@ -46,9 +46,16 @@ scratch-exploration-output/
 
 **Test:** `node exploration-outputs/phase3-extension/test_aiclassify_direct.js`
 
-## Phase 4: Transpiler (Planned)
+## Phase 4: Transpiler ✅
 
-Text-based syntax that compiles to valid .sb3 JSON.
+**Created:** ScratchScript - text-based syntax that transpiles to .sb3
+- Human-readable, indentation-based syntax
+- Supports events, motion, looks, pen, and control blocks
+- Command-line tool: `node scratchscript-cli.js <input.scratch> <output.sb3>`
+- Two working examples included (square drawing, interactive sprite)
+- Outputs valid .sb3 files that run in Scratch 3.0
+
+**Test:** `node exploration-outputs/phase4-transpiler/scratchscript-cli.js exploration-outputs/phase4-transpiler/example.scratch`
 
 ---
 

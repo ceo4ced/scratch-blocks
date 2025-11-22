@@ -1,0 +1,18 @@
+# ScratchScript Example: Moving Cat
+# Makes the cat move around when arrow keys are pressed
+
+sprite Cat:
+    when flag clicked:
+        say "Use arrow keys to move me!"
+
+    when up arrow pressed:
+        move 10 steps
+
+    when down arrow pressed:
+        move -10 steps
+
+    when right arrow pressed:
+        turn right 15
+
+    when left arrow pressed:
+        turn left 15
